@@ -1,11 +1,10 @@
-package P5E_Project_RandomStringChooser_Template;
 
 public class RandomLetterChooser extends RandomStringChooser
    {
    
    public RandomLetterChooser( String str )
       {
-
+           super(getSingleLetters(str));
       } // end one-arg constructor
      
    public static String[] getSingleLetters( String str )
@@ -19,4 +18,4 @@ public class RandomLetterChooser extends RandomStringChooser
 
       return letters;  
       } // end method getSingleLetters
-   } // end class RandomStringChooser
+   } // end class RandomStringChoose
